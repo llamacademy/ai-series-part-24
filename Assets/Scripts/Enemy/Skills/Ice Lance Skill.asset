@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8a17b85f9d274e87a86ff2a9274d1, type: 3}
+  m_Name: Ice Lance Skill
+  m_EditorClassIdentifier: 
+  Cooldown: 5
+  Damage: 10
+  UnlockLevel: 1
+  IsActivating: 0
+  LancesToShoot: 2
+  Delay: 0.25
+  Range: 10
+  BulletSpeed: 10
+  Prefab: {fileID: 4771680408785526254, guid: 6c6118c8eb07fa14192d5a1a9ccee438, type: 3}
+  LineOfSightLayers:
+    serializedVersion: 2
+    m_Bits: 33025
+  ProjectileRadius: 0.25
+  BulletSpawnOffset: {x: 0, y: 1, z: 0}
